@@ -15,12 +15,12 @@
             <hr>
 
             <label class="label-style" for="email">Email</label>
-            <input class="input-style" type="email" id="email" placeholder="Enter your email adress">
+            <input class="input-style" type="email" id="email"  required placeholder="Enter your email adress">
             <hr>
 
             <label class="label-style" for="needed-services">Needed Services</label>
-            <select class="input-style" name="needed-services" id="needed-services">
-                <option value="choose-service">Choose Services</option>
+            <select class="input-style" name="needed-services" id="needed-services" required>
+                <option value="">Choose Services</option>
                 <option value="service-one">Service One</option>
                 <option value="service-two">Service Two</option>
                 <option value="service-three">Service Three</option>
@@ -28,8 +28,8 @@
             <hr>
 
             <label class="label-style" for="budget">Budget</label>
-            <select class="input-style" name="budget" id="budget">
-                <option value="select-budget">Select Budget</option>
+            <select class="input-style" name="budget" id="budget" required>
+                <option value="">Select Budget</option>
                 <option value="budget-one">Budget One</option>
                 <option value="budget-two">Budget Two</option>
                 <option value="budget-three">Budget Three</option>
@@ -37,7 +37,7 @@
             <hr>
 
             <label class="label-style" for="message">Message</label>
-            <textarea class="input-style" name="message" id="message" placeholder="Your message here"></textarea>
+            <textarea class="input-style" name="message" id="message" required placeholder="Your message here"></textarea>
             <hr>
 
             <button class="bt-style" type="submit">Submit</button>

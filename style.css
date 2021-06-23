@@ -17,9 +17,11 @@ body{
 .form-stack select,
 .form-stack textarea {
     display: block;
+    width: 100%;
 }
 .form-stack > *{
     margin-bottom: 1rem;
+    font-family: sans-serif;
 }
 input,
 select,
@@ -27,7 +29,7 @@ textarea {
     border: none;
 }
 .form-stack{
-    margin: 80px 350px;
+    margin: 80px 400px;
     padding: 3rem;
     background-color: white;
     border-radius: 20px;
@@ -37,7 +39,8 @@ textarea {
 }
 h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
 }
 .bt-style{
     height: 3rem;
